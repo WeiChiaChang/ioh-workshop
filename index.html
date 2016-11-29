@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<title>Bootstrap X Salvattore X IOH</title>-->
+	<title>IOH X 大學工作坊概念頁</title>
+	<link rel="shortcut icon" href="http://ioh.tw/wp-content/themes/roots/assets/img/ioh-favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/horizontal-timeline.css">
+	<!--<link rel="stylesheet" href="css/timeline.css">-->
+	<!--<link rel="stylesheet" href="css/modal.css">-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<!--<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">-->
+	
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<div id="app" class="container">
+		<img id="ioh-logo" src="http://i.imgur.com/tkmglON.png" alt="IOH 開放個人經驗平台" width="160" height="120">
+    <p class="ioh-slogan">"當我們說起故事，我們就可以改變世界！"</p>	
+    
+  <!--  <section class="cd-horizontal-timeline">-->
+		<!--	<div class="timeline">-->
+		<!--		<div class="events-wrapper">-->
+		<!--			<div class="events">-->
+		<!--				<ol>-->
+		<!--					<li>-->
+		<!--						<a href="#0" data-date="16/07/2015" class="selected">-->
+		<!--							<button id="button-ncku" class="filter button-style" data-filter=".ncku">成功大學</button>-->
+		<!--						</a>-->
+		<!--					</li>-->
+		<!--					<li>-->
+		<!--						<a href="#0" data-date="16/09/2015">-->
+		<!--							<button id="button-scu" class="filter button-style" data-filter=".scu">東吳大學</button>-->
+		<!--						</a>-->
+		<!--					</li>-->
+		<!--					<li>-->
+		<!--						<a href="#0" data-date="27/09/2015">-->
+		<!--							<button id="button-kmu" class="filter button-style" data-filter=".kmu">高雄醫學大學</button>-->
+		<!--						</a>-->
+		<!--					</li>-->
+		<!--					<li>-->
+		<!--						<a href="#0" data-date="16/10/2015">-->
+		<!--							<button id="button-cjcu" class="filter button-style" data-filter=".cjcu">長榮大學</button>-->
+		<!--						</a>-->
+		<!--					</li>-->
+		<!--					<li>-->
+		<!--						<a href="#0" data-date="25/10/2015">-->
+		<!--							<button id="button-nsysu" class="filter button-style" data-filter=".nsysu">中山大學</button>-->
+		<!--						</a>-->
+		<!--					</li>-->
+		<!--					<li>-->
+		<!--						<a href="#0" data-date="06/11/2015">-->
+		<!--							<button id="button-ntu" class="filter button-style" data-filter=".ntu">臺灣大學</button>-->
+		<!--						</a>-->
+		<!--					</li>-->
+		<!--					<li>-->
+		<!--						<a href="#0" data-date="27/12/2015">-->
+		<!--						 <button id="button-ncnu" class="filter button-style" data-filter=".ncnu">暨南國際大學</button>-->
+		<!--						</a>-->
+		<!--					</li>-->
+		<!--					<li>-->
+		<!--						<a href="#0" data-date="12/11/2022">-->
+		<!--							<button>TEST</button>-->
+		<!--						</a>-->
+		<!--					</li>-->
+		<!--					<li>-->
+		<!--						<a href="#0" data-date="19/12/2023">-->
+		<!--							<button id="button-ttu" class="filter button-style" data-filter=".ttu">大同大學</button>-->
+		<!--						</a>-->
+		<!--					</li>-->
+		<!--					<li>-->
+		<!--						<a href="#0" data-date="26/01/2024">-->
+		<!--							<button>TEST</button>-->
+		<!--						</a>-->
+		<!--					</li>-->
+		<!--					<li>-->
+		<!--						<a href="#0" data-date="15/03/2025">-->
+		<!--							<button>TEST</button>-->
+		<!--						</a>-->
+		<!--					</li>-->
+		<!--				</ol>-->
+		<!--				<span class="filling-line" aria-hidden="true"></span>-->
+		<!--			</div> <!-- .events -->-->
+		<!--		</div> <!-- .events-wrapper -->-->
+			
+		<!--		<ul class="cd-timeline-navigation">-->
+		<!--			<li><a href="#0" class="prev inactive">Prev</a></li>-->
+		<!--			<li><a href="#0" class="next">Next</a></li>-->
+		<!--		</ul> <!-- .cd-timeline-navigation -->-->
+		<!--	</div> <!-- .timeline -->-->
+		<!--</section>-->
+		
+	<div class="controls">
+		<!--<label>聰明篩選器:</label>-->
+		<!--<button id="button-all" class="filter button-style" data-filter="all">所有大學工作坊</button>-->
+		<button id="button-ncku" class="filter button-style" data-filter=".ncku">成功大學</button>
+		<button id="button-scu" class="filter button-style" data-filter=".scu">東吳大學</button>
+		<button id="button-kmu" class="filter button-style" data-filter=".kmu">高雄醫學大學</button>
+		<button id="button-cjcu" class="filter button-style" data-filter=".cjcu">長榮大學</button>
+		<button id="button-nsysu" class="filter button-style" data-filter=".nsysu">中山大學</button>
+		<button id="button-ntu" class="filter button-style" data-filter=".ntu">臺灣大學</button>
+		<button id="button-ncnu" class="filter button-style" data-filter=".ncnu">暨南國際大學</button>
+		<button id="button-ttu" class="filter button-style" data-filter=".ttu">大同大學</button>
+	</div>
+	<br>
+	<div id="posts">
+			<!--成功大學-->
+			<div class="post mix ncku size-1of4" v-for="talk in ncku_talks" data-columns>
+				<div class="ch-item">
+					<img class="avatar-img test-img" :src="talk.avatar">
+					<div class="test-info">
+						<h3>{{talk.chinese_name}}</h3>
+						<p class="avatar-school">{{talk.school[1]}}<br>{{talk.chinese_dept}}系</p>
+						<button>
+							<p class="button-title"><i class="fa fa-info-circle" aria-hidden="true"></i> 講座資訊</p>
+						</button>
+					</div>
+					<p class="avatar-title">{{talk.chinese_name}}</p>
+				</div>
+			</div>
+			
+			<!--東吳大學-->
+			<div class="post mix scu size-1of4" v-for="talk in scu_talks" data-columns>
+				<div class="ch-item">
+					<img class="avatar-img test-img" :src="talk.avatar">
+					<div class="test-info">
+						<h3>{{talk.chinese_name}}</h3>
+						<p class="avatar-school">{{talk.school[1]}}<br>{{talk.chinese_dept}}系</p>
+						<button>
+							<p class="button-title"><i class="fa fa-info-circle" aria-hidden="true"></i> 講座資訊</p>
+						</button>
+					</div>
+					<p class="avatar-title">{{talk.chinese_name}}</p>
+				</div>
+			</div>
+			
+			<!--高雄醫學大學-->
+			<div class="post mix kmu size-1of4" v-for="talk in kmu_talks" data-columns>
+				<div class="ch-item">
+					<img class="avatar-img test-img" :src="talk.avatar">
+					<div class="test-info">
+						<h3>{{talk.chinese_name}}</h3>
+						<p class="avatar-school">{{talk.school[1]}}<br>{{talk.chinese_dept}}系</p>
+						<button>
+							<p class="button-title"><i class="fa fa-info-circle" aria-hidden="true"></i> 講座資訊</p>
+						</button>
+					</div>
+					<p class="avatar-title">{{talk.chinese_name}}</p>
+				</div>
+			</div>
+			
+			<!--長榮大學-->
+			<div class="post mix cjcu size-1of4" v-for="talk in cjcu_talks" data-columns>
+				<div class="ch-item">
+					<img class="avatar-img test-img" :src="talk.avatar">
+					<div class="test-info">
+						<h3>{{talk.chinese_name}}</h3>
+						<p class="avatar-school">{{talk.school[1]}}<br>{{talk.chinese_dept}}系</p>
+						<button>
+							<p class="button-title"><i class="fa fa-info-circle" aria-hidden="true"></i> 講座資訊</p>
+						</button>
+					</div>
+					<p class="avatar-title">{{talk.chinese_name}}</p>
+				</div>
+			</div>
+			
+			
+			<!--中山大學-->
+			<div class="post mix nsysu size-1of4" v-for="talk in nsysu_talks" data-columns>
+				<div class="ch-item">
+					<img class="avatar-img test-img" :src="talk.avatar">
+					<div class="test-info">
+						<h3>{{talk.chinese_name}}</h3>
+						<p class="avatar-school">{{talk.school[1]}}<br>{{talk.chinese_dept}}系</p>
+						<button>
+							<p class="button-title"><i class="fa fa-info-circle" aria-hidden="true"></i> 講座資訊</p>
+						</button>
+					</div>
+					<p class="avatar-title">{{talk.chinese_name}}</p>
+				</div>
+			</div>
+			
+			<!--臺灣大學-->
+			<div class="post mix ntu size-1of4" v-for="talk in ntu_talks" data-columns>
+				<div class="ch-item">
+					<img class="avatar-img test-img" :src="talk.avatar">
+					<div class="test-info">
+						<h3>{{talk.chinese_name}}</h3>
+						<p class="avatar-school">{{talk.school[1]}}<br>{{talk.chinese_dept}}系</p>
+						<button>
+							<p class="button-title"><i class="fa fa-info-circle" aria-hidden="true"></i> 講座資訊</p>
+						</button>
+					</div>
+					<p class="avatar-title">{{talk.chinese_name}}</p>
+				</div>
+			</div>
+			
+			<!--暨南國際大學-->
+			<div class="post mix ncnu size-1of4" v-for="talk in ncnu_talks" data-columns>
+				<div class="ch-item">
+					<img class="avatar-img test-img" :src="talk.avatar">
+					<div class="test-info">
+						<h3>{{talk.chinese_name}}</h3>
+						<p class="avatar-school">{{talk.school[1]}}<br>{{talk.chinese_dept}}系</p>
+						<button>
+							<p class="button-title"><i class="fa fa-info-circle" aria-hidden="true"></i> 講座資訊</p>
+						</button>
+					</div>
+					<p class="avatar-title">{{talk.chinese_name}}</p>
+				</div>
+			</div>
+			
+			<!--大同大學-->
+			<div class="post mix ttu size-1of4" v-for="talk in ttu_talks" data-columns>
+				<div class="ch-item">
+					<img class="avatar-img test-img" :src="talk.avatar">
+					<div class="test-info">
+						<h3>{{talk.chinese_name}}</h3>
+						<p class="avatar-school">{{talk.school[1]}}<br>{{talk.chinese_dept}}系</p>
+						<button>
+							<p class="button-title"><i class="fa fa-info-circle" aria-hidden="true"></i> 講座資訊</p>
+						</button>
+					</div>
+					<p class="avatar-title">{{talk.chinese_name}}</p>
+				</div>
+			</div>
+			
+	</div>
+
+	<!-- The script must be included at the bottom of the body to work -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/salvattore/1.0.9/salvattore.min.js"></script>
+	
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.js'></script>
+	<script src="main.js"></script>
+	<script src="horizontal.js"></script>
+	<script src="index.js"></script>
+	<!--<script src="jquery.twbsPagination.min.js"></script>-->
+	<script src="jquery.timelinr-0.9.6.js"></script>
+	
+</body>
+</html>
